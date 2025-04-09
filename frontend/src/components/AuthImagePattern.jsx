@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 
-const AuthImagePattern = ({ title, subtitle, image1 = "/src/assets/male-image.avif", image2 = "/src/assets/female-image.jpg" }) => {
+const AuthImagePattern = ({ title, subtitle, image1 = "/male-image.avif", image2 = "/female-image.jpg" }) => {
   const [animatedBoxes, setAnimatedBoxes] = useState([0, 2, 4, 6, 8]);
 
   useEffect(() => {
